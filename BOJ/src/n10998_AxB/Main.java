@@ -1,4 +1,4 @@
-package n1001_A_B;
+package n10998_AxB;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,15 +9,12 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		BufferedReader br =  new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine()," ");
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
-		System.out.println(A-B);
-		
+		System.out.println(A*B);
+
 	}
 
 }
-//int A = Integer.parseInt(br.readLine());
-//int B = Integer.parseInt(br.readLine());
-//System.out.println(A-B);
