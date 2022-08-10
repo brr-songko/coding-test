@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;n2438_별_찍기&apos; to &apos;n2438_별_찍기_1&apos;&#x0D;&#x0A;- Original project: &apos;BOJ&apos;&#x0D;&#x0A;- Original element: &apos;BOJ/src/n2438_별_찍기&apos;&#x0D;&#x0A;- Renamed element: &apos;BOJ/src/n2438_별_찍기_1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;n2438_별_찍기&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;n2438_별_찍기" name="n2438_별_찍기_1" qualified="false" references="true" stamp="1660133470736" textual="false" version="1.0"/>
+</session>
