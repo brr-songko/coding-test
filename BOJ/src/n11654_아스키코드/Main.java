@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int A = br.readLine().charAt(0);
-		System.out.println(A);
+		char A = br.readLine().charAt(0);
+		int B = (int) A;
+		System.out.println(B);
 	}
-
 }

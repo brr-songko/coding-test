@@ -1,4 +1,4 @@
-package n11720_숫자의합;
+package n2562_최댓값;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,14 +7,19 @@ import java.io.InputStreamReader;
 public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		String sN = br.readLine();
-		char arr[] = sN.toCharArray();
-		int sum = 0;
-		
-		for(int i = 0; i < arr.length; i++) {
-			sum += arr[i] - '0';
+		int[] arr = new int[9];
+		int max = 0;
+		int count = 0;
+
+		for (int i = 0; i < 9; i++) {
+			arr[i] = Integer.parseInt(br.readLine());
+			if (arr[i] > max) {
+				max = arr[i];
+				count = i + 1;
+			}
 		}
-		System.out.println(sum);
+		System.out.println(max);
+		System.out.println(count);
+
 	}
 }
