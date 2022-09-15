@@ -17,11 +17,10 @@ public class Main {
 			int H = Integer.parseInt(st.nextToken());
 			int W = Integer.parseInt(st.nextToken());
 			int N = Integer.parseInt(st.nextToken());
-			
 			if(N%H == 0) {
-				System.out.println(H*100 + 1*N/H);
+				System.out.print(H*100 + 1*N/H);
 			}else{
-				System.out.println((N%H)*100+(N/H)+1);
+				System.out.print((N%H)*100+(N/H)+1);
 			}
 		}
 	}

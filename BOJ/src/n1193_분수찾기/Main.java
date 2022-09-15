@@ -1,56 +1,43 @@
 package n1193_분수찾기;
 
+//16124KB 172ms
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//public class Main {
-//	public static void main(String[] args) throws NumberFormatException, IOException {
-//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//		int X = Integer.parseInt(br.readLine());
-//		int sum = 1;
-//		int A = 1;
-//		int B = 1;
-////		for (;;) {
-////			if (sum > X) {
-////				x = sum - X;
-////				break;
-////			} else if (sum == X) {
-////				x = sum - X;
-////				break;
-////			}
-////			sum += N;
-////			N++;
-////		}
-////		if (N % 2 == 0) {
-////			System.out.println((1 + x) + "/" + (N - x));
-////		} else if (N % 2 == 1) {
-////			System.out.println((N - x) + "/" + (1 + x));
-////		}
-////	}
-////}
+public class Main {
+	static int a, b;
+	static boolean isOdd;
 
-// 1/1 1/2 2/1 3/1 2/2 1/3 1/4 2/3 3/2 4/1 5/1  4/2 3/3 2/4
-// 1   2   3   4   5   6   7   8   9   10  11   12  13  14
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int X = Integer.parseInt(br.readLine());
+		a = 1;
+		b = 1;
 
-//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//int X = Integer.parseInt(br.readLine());
-//int sum = 1;
-//int N = 1;
-//int x = 0;
-//for (;;) {
-//	if (sum > X) {
-//		x = sum - X;
-//		break;
-//	} else if (sum == X) {
-//		x = sum - X;
-//		break;
-//	}
-//	sum += N;
-//	N++;
-//}
-//if (N % 2 == 0) {
-//	System.out.println((1 + x) + "/" + (N - x));
-//} else if (N % 2 == 1) {
-//	System.out.println((N - x) + "/" + (1 + x));
-//}
+		while (--X > 0) {
+			run();
+		}
+		System.out.println(a + "/" + b);
+	}
+
+	public static void run() {
+		if (!isOdd) {
+			if (a == 1) {
+				b++;
+				isOdd = !isOdd;
+			} else {
+				a--;
+				b++;
+			}
+		} else {
+			if (b == 1) {
+				a++;
+				isOdd = !isOdd;
+			} else {
+				a++;
+				b--;
+			}
+		}
+	}
+}
