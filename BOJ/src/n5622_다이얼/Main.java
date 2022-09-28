@@ -7,21 +7,24 @@ import java.io.InputStreamReader;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		char[] A = br.readLine().toCharArray();
-		char[] alphabet = { 'W', 'T', 'P', 'M', 'J', 'G', 'D', 'A' };
-		int[] times = { 8, 7, 6, 5, 4, 3, 2, 1 };
-		int result = 0;
-		for (int i = 0; i < A.length; i++) {
-			char c = A[i];
-			int time = 2;
-			for (int j = 0; j < 8; j++) {
-				if (c >= alphabet[j]) {
-					time += times[j];
-					break;
-				}
+		String A = br.readLine();
+		int[] arr = new int['Z'-'A'+1];
+		int a = 3;
+		for(int i = 1; i <= arr.length; i++) {
+			arr[i] = a;
+			if(i%3 == 0) {
+				a++;
 			}
-			result += time;
+			System.out.println(arr[i]);
 		}
-		System.out.println(result);
+		System.out.println("---- ");
+		char[] pArr = A.toCharArray();
+		int sum = 0;
+		for(int i = 0; i < pArr.length; i++) {
+			sum += arr[pArr[i]-'A'];
+			System.out.println(arr[pArr[i]-'A']);
+		}
+		System.out.println(sum);
+		
 	}
 }
