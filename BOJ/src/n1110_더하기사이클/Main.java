@@ -25,3 +25,29 @@ public class Main {
 		System.out.println(count);
 	}
 }
+
+//두 번째 풀이
+//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//int N = Integer.parseInt(br.readLine());
+//int temp = N;
+//int answer = 0;
+//
+//while (true) {
+//	if (temp / 10 == 0) {
+//		temp = temp * 10 + temp;
+//	} else {
+//		int ten = temp % 10;
+//		int one = temp / 10 + temp % 10;
+//		if (one < 10) {
+//			temp = ten * 10 + one;
+//		} else {
+//			temp = ten * 10 + one % 10;
+//		}
+//	}
+//	answer++;
+//	if (temp == N) {
+//		break;
+//	}
+//}
+//System.out.println(answer);
+//}
