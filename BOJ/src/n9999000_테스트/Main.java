@@ -12,7 +12,7 @@ public class Main {
 		int answer = 0;
 		StringTokenizer st = new StringTokenizer(N, " ");
 //		System.out.println(st.hasMoreTokens());
-		while(st.hasMoreTokens()) {
+		while (st.hasMoreTokens()) {
 			st.nextToken();
 			answer++;
 		}

@@ -3,15 +3,15 @@ package n1755_숫자놀이;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-<<<<<<< HEAD
-=======
+
+
 import java.util.Collections;
->>>>>>> cd235da5b4b88a45f1e4c8f57caf983cb1de8d6a
+
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class Main {
-<<<<<<< HEAD
+
 	// 영어로 변환 or 숫자로 변환 시 사용할 배열
 	static String[] en = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
@@ -70,7 +70,7 @@ public class Main {
 	}
 
 }
-=======
+/*
    // 영어로 변환 or 숫자로 변환 시 사용할 배열
    static String[] en = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
@@ -129,4 +129,4 @@ public class Main {
       return 0;
    }
 }
->>>>>>> cd235da5b4b88a45f1e4c8f57caf983cb1de8d6a
+>>>>>>> cd235da5b4b88a45f1e4c8f57caf983cb1de8d6a*/

@@ -1,10 +1,10 @@
 package n1269_대칭차집합;
 
-<<<<<<< HEAD
-=======
+
+
 
 //	103068kb	876ms
->>>>>>> cd235da5b4b88a45f1e4c8f57caf983cb1de8d6a
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +15,8 @@ import java.util.StringTokenizer;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-<<<<<<< HEAD
+/*
+		<<<<<<< HEAD
 		StringTokenizer st = new StringTokenizer(br.readLine()," ");
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
@@ -35,7 +36,7 @@ public class Main {
 		}
 		
 
-=======
+=======*/
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
@@ -67,6 +68,5 @@ public class Main {
 		BMap.entrySet().removeAll(tempAMap.entrySet());
 		int answer = AMap.size() + BMap.size();
 		System.out.println(answer);
->>>>>>> cd235da5b4b88a45f1e4c8f57caf983cb1de8d6a
 	}
 }
