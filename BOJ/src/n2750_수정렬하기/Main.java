@@ -1,4 +1,4 @@
-package n2750_수정렬하기;
+package BOJ.src.n2750_수정렬하기;
 
 //15460KB	188ms
 import java.io.BufferedReader;

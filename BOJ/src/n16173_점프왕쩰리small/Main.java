@@ -1,4 +1,4 @@
-package n16173_Á¡ÇÁ¿Õ¥f¸®small;
+package BOJ.src.n16173_Á¡ÇÁ¿Õ¥f¸®small;
 
 //14252kb		120ms
 import java.io.BufferedReader;

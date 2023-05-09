@@ -1,4 +1,4 @@
-package n10870_피보나치수5;
+package BOJ.src.n10870_피보나치수5;
 
 import java.io.BufferedReader;
 import java.io.IOException;

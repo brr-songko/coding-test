@@ -1,4 +1,4 @@
-package n1269_대칭차집합;
+package BOJ.src.n1269_대칭차집합;
 
 
 

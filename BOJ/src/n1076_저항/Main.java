@@ -1,4 +1,4 @@
-package n1076_저항;
+package BOJ.src.n1076_저항;
 
 public class Main {
 	public static void main(String[] args) {

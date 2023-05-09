@@ -1,4 +1,4 @@
-package n1001_A_B;
+package BOJ.src.n1001_A_B;
 
 import java.io.BufferedReader;
 import java.io.IOException;

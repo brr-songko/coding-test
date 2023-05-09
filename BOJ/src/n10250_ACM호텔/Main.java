@@ -1,4 +1,4 @@
-package n10250_ACM호텔;
+package BOJ.src.n10250_ACM호텔;
 
 //14300kb	140ms
 

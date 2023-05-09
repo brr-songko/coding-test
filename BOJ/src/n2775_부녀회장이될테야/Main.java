@@ -1,4 +1,4 @@
-package n2775_부녀회장이될테야;
+package BOJ.src.n2775_부녀회장이될테야;
 
 //14276KB 120ms
 

@@ -1,4 +1,4 @@
-package n11653_소인수분해;
+package BOJ.src.n11653_소인수분해;
 
 //	14872KB	164ms
 import java.io.BufferedReader;

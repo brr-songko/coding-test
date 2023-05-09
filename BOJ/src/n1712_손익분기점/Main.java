@@ -1,4 +1,4 @@
-package n1712_손익분기점;
+package BOJ.src.n1712_손익분기점;
 
 import java.io.BufferedReader;
 import java.io.IOException;

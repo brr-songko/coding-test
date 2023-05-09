@@ -1,4 +1,4 @@
-package n4344_평균은_넘겠지;
+package BOJ.src.n4344_평균은_넘겠지;
 
 import java.io.BufferedReader;
 import java.io.IOException;

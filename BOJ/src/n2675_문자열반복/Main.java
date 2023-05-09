@@ -1,4 +1,4 @@
-package n2675_문자열반복;
+package BOJ.src.n2675_문자열반복;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package n1110_더하기사이클;
+package BOJ.src.n1110_더하기사이클;
 
 import java.io.BufferedReader;
 import java.io.IOException;

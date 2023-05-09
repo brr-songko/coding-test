@@ -1,4 +1,4 @@
-package n1100_го╬Ад╜;
+package BOJ.src.n1100_го╬Ад╜;
 
 //14164KB	124ms
 

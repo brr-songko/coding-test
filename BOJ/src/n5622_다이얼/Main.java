@@ -1,4 +1,4 @@
-package n5622_다이얼;
+package BOJ.src.n5622_다이얼;
 
 import java.io.BufferedReader;
 import java.io.IOException;

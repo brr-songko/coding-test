@@ -1,4 +1,4 @@
-package n2908_상수;
+package BOJ.src.n2908_상수;
 
 import java.io.BufferedReader;
 import java.io.IOException;

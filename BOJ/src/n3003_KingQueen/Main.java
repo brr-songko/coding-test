@@ -1,4 +1,4 @@
-package n3003_KingQueen;
+package BOJ.src.n3003_KingQueen;
 
 import java.io.BufferedReader;
 import java.io.IOException;

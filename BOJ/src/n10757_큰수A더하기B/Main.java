@@ -1,4 +1,4 @@
-package n10757_큰수A더하기B;
+package BOJ.src.n10757_큰수A더하기B;
 
 import java.io.BufferedReader;
 import java.io.IOException;

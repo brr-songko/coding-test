@@ -1,4 +1,4 @@
-package n2606_바이러스;
+package BOJ.src.n2606_바이러스;
 
 
 //14244kb		124ms

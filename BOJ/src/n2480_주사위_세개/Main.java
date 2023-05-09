@@ -1,4 +1,4 @@
-package n2480_주사위_세개;
+package BOJ.src.n2480_주사위_세개;
 
 import java.io.BufferedReader;
 import java.io.IOException;

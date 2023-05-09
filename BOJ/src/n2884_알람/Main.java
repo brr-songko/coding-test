@@ -1,4 +1,4 @@
-package n2884_알람;
+package BOJ.src.n2884_알람;
 
 import java.io.BufferedReader;
 import java.io.IOException;

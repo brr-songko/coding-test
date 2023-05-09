@@ -1,4 +1,4 @@
-package n1546_ЦђБе;
+package BOJ.src.n1546_ЦђБе;
 
 import java.io.BufferedReader;
 import java.io.IOException;

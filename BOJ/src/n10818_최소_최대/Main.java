@@ -1,4 +1,4 @@
-package n10818_置社_置企;
+package BOJ.src.n10818_置社_置企;
 
 import java.io.BufferedReader;
 import java.io.IOException;

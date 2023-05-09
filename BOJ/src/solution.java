@@ -1,3 +1,4 @@
+package BOJ.src;
 
 class solution {
 

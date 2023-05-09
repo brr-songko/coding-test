@@ -1,4 +1,4 @@
-package n2753_year;
+package BOJ.src.n2753_year;
 
 import java.io.BufferedReader;
 import java.io.IOException;

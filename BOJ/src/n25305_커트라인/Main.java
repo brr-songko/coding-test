@@ -1,4 +1,4 @@
-package n25305_커트라인;
+package BOJ.src.n25305_커트라인;
 
 import java.io.BufferedReader;
 import java.io.IOException;

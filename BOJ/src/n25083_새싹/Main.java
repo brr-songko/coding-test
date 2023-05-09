@@ -1,4 +1,4 @@
-package n25083_货较;
+package BOJ.src.n25083_货较;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package n25501_營敝曖敝營;
+package BOJ.src.n25501_營敝曖敝營;
 
 //	298316KB	592ms
 import java.io.BufferedReader;

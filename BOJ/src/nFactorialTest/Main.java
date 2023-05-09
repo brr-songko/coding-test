@@ -1,4 +1,4 @@
-package nFactorialTest;
+package BOJ.src.nFactorialTest;
 
 import java.io.BufferedReader;
 import java.io.IOException;

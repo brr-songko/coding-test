@@ -1,4 +1,4 @@
-package n10998_AxB;
+package BOJ.src.n10998_AxB;
 
 import java.io.BufferedReader;
 import java.io.IOException;

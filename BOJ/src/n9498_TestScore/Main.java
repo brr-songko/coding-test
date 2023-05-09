@@ -1,4 +1,4 @@
-package n9498_TestScore;
+package BOJ.src.n9498_TestScore;
 
 import java.io.BufferedReader;
 import java.io.IOException;

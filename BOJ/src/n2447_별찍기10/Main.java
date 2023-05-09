@@ -1,4 +1,4 @@
-package n2447_º°Âï±â10;
+package BOJ.src.n2447_º°Âï±â10;
 
 import java.io.BufferedReader;
 import java.io.IOException;

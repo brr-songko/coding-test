@@ -1,4 +1,4 @@
-package n1193_분수찾기;
+package BOJ.src.n1193_분수찾기;
 
 //16124KB 172ms
 import java.io.BufferedReader;

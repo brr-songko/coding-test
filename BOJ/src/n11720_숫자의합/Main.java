@@ -1,4 +1,4 @@
-package n11720_숫자의합;
+package BOJ.src.n11720_숫자의합;
 
 import java.io.BufferedReader;
 import java.io.IOException;

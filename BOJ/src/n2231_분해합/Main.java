@@ -1,4 +1,4 @@
-package n2231_분해합;
+package BOJ.src.n2231_분해합;
 
 import java.io.BufferedReader;
 import java.io.IOException;

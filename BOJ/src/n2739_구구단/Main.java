@@ -1,4 +1,4 @@
-package n2739_备备窜;
+package BOJ.src.n2739_备备窜;
 
 import java.io.BufferedReader;
 import java.io.IOException;

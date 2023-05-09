@@ -1,4 +1,4 @@
-package n10815_숫자카드;
+package BOJ.src.n10815_숫자카드;
 
 //176236kb	820ms
 import java.io.BufferedReader;

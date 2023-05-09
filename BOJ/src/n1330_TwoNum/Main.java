@@ -1,4 +1,4 @@
-package n1330_TwoNum;
+package BOJ.src.n1330_TwoNum;
 
 import java.io.BufferedReader;
 import java.io.IOException;

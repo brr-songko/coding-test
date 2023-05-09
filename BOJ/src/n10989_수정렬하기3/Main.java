@@ -1,11 +1,10 @@
-package n10989_수정렬하기3;
+package BOJ.src.n10989_수정렬하기3;
 
 //364652KB	2492
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException {

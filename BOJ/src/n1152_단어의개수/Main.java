@@ -1,4 +1,4 @@
-package n1152_단어의개수;
+package BOJ.src.n1152_단어의개수;
 
 import java.io.BufferedReader;
 import java.io.IOException;

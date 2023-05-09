@@ -1,4 +1,4 @@
-package n9999000_테스트;
+package BOJ.src.n9999000_테스트;
 
 import java.io.BufferedReader;
 import java.io.IOException;

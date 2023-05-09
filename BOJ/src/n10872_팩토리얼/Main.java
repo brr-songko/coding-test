@@ -1,4 +1,4 @@
-package n10872_ÆÑÅä¸®¾ó;
+package BOJ.src.n10872_ÆÑÅä¸®¾ó;
 
 import java.io.BufferedReader;
 import java.io.IOException;

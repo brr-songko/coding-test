@@ -1,4 +1,4 @@
-package n11654_아스키코드;
+package BOJ.src.n11654_아스키코드;
 
 import java.io.BufferedReader;
 import java.io.IOException;
