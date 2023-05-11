@@ -8,42 +8,75 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine()," ");
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         StringBuilder sb = new StringBuilder();
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
         int[] basket = new int[N];
+        int[] tempBasket = new int[N];
         for (int i = 0; i < N; i++) {
-            basket[i] = i+1;
+            basket[i] = i + 1;
         }
 
         for (int i = 0; i < M; i++) {
-            int[] newBasket = new int[N];
-            st = new StringTokenizer(br.readLine()," ");
-            int begin = Integer.parseInt(st.nextToken()) -1;
-            int end = Integer.parseInt(st.nextToken()) -1;
-            int mid = Integer.parseInt(st.nextToken()) -1;
+            st = new StringTokenizer(br.readLine(), " ");
+            int begin = Integer.parseInt(st.nextToken()) - 1;
+            int end = Integer.parseInt(st.nextToken()) - 1;
+            int mid = Integer.parseInt(st.nextToken()) - 1;
             int end_mid = end - mid;
-            int mid_begin = mid - begin;
+            int begin_mid = mid - begin;
 
-            for (int j = 0; j <= end_mid; j++) {
-                newBasket[begin++] = basket[mid++];
-            }
 
-            for (int j = 0; j <= mid_begin; j++) {
-                newBasket[mid++] = basket[begin++];
-            }
-
-            for (int j = 0; j < N; j++) {
-                basket[j] = newBasket[j];
+            if (begin == mid) {
+            } else if (end == mid) {
+                tempBasket[begin] = basket[mid];
+                while (begin < begin_mid) {
+                    tempBasket[begin + 1] = basket[begin];
+                    begin++;
+                }
+                for (int j = 0; j < N; j++) {
+                    if (tempBasket[j] == 0) {
+                        tempBasket[j] = basket[j];
+                    }
+                }
+                for (int j = 0; j < N; j++) {
+                    basket[j] = tempBasket[j];
+                }
+            } else {
+                int tempBegin = begin;
+                int tempMid = mid;
+                int count = 0;
+                while (count <= end_mid) {
+                    tempBasket[tempBegin] = basket[tempMid];
+                    tempBegin++;
+                    tempMid++;
+                    count++;
+                }
+                int count2 = 0;
+                while (count2 < begin_mid) {
+                    tempBasket[tempBegin] = basket[begin];
+                    tempBegin++;
+                    begin++;
+                    count2++;
+                }
+                for (int j = 0; j < N; j++) {
+                    if (tempBasket[j] == 0) {
+                        tempBasket[j] = basket[j];
+                    }
+                }
+                for (int j = 0; j < N; j++) {
+                    basket[j] = tempBasket[j];
+                }
             }
         }
-
         for (int i = 0; i < N; i++) {
-            sb.append(basket[i]).append(" ");
+            if (i == N - 1) {
+                sb.append(basket[i]);
+            } else {
+                sb.append(basket[i]).append(" ");
+            }
         }
-
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }
 
