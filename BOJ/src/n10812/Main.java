@@ -16,6 +16,7 @@ public class Main {
         int[] tempBasket = new int[N];
         for (int i = 0; i < N; i++) {
             basket[i] = i + 1;
+            tempBasket[i] = i + 1;
         }
 
         for (int i = 0; i < M; i++) {
@@ -23,6 +24,67 @@ public class Main {
             int begin = Integer.parseInt(st.nextToken()) - 1;
             int end = Integer.parseInt(st.nextToken()) - 1;
             int mid = Integer.parseInt(st.nextToken()) - 1;
+            int tempBegin = begin;
+
+            for (int j = 0; j < end - begin + 1; j++) {
+                if (mid + j <= end) {
+                    tempBasket[begin + j] = basket[mid+j];
+                } else{
+                    tempBasket[begin + j] = basket[tempBegin++];
+                }
+            }
+
+            for (int j = 0; j < N; j++) {
+                basket[j] = tempBasket[j];
+            }
+        }
+
+        for (int i = 0; i < N; i++) {
+            if (i == N - 1) {
+                sb.append(basket[i]);
+            } else {
+                sb.append(basket[i]).append(" ");
+            }
+        }
+        System.out.println(sb);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*
             int end_mid = end - mid;
             int begin_mid = mid - begin;
 
@@ -69,16 +131,9 @@ public class Main {
                 }
             }
         }
-        for (int i = 0; i < N; i++) {
-            if (i == N - 1) {
-                sb.append(basket[i]);
-            } else {
-                sb.append(basket[i]).append(" ");
-            }
-        }
-        System.out.println(sb);
-    }
-}
+
+             */
+
 
 /**
  * 도현 바구니 총 N개 소유
