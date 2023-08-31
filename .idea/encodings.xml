@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/BOJ/src/n10250_ACM호텔/Main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BOJ/src/n10757_큰수A더하기B/Main.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BOJ/src/n1076_저항/Main.java" charset="UTF-8" />
