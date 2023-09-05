@@ -1,4 +1,4 @@
-package BOJ.src.n10815_¼ýÀÚÄ«µå;
+package BOJ.src.n10815;
 
 //176236kb	820ms
 import java.io.BufferedReader;
@@ -57,11 +57,11 @@ public class Main {
 
 
 
-/* µÎ ¹øÂ° »ý°¢ÇÑ ÃÖ´ë ¹è¿­ ¸¸µé°í Æ÷¹® ÇÑ¹ø¸¸ µ¹°ÔÇÏ±â
+/* ï¿½ï¿½ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
  int[] checkArr = new int[20000000];
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		// ³» ¼ýÀÚ¸¦ ¹è¿­·Î ¹Þ±â
+		// ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½Þ±ï¿½
 		int N = Integer.parseInt(br.readLine());
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		for(int i = 0; i < N; i++) {
@@ -81,18 +81,18 @@ public class Main {
 	}
  */
 
-/* Ã³À½ »ý°¢ÇÑ Æ²¸° ´ä ±×³É ¹«½Ä ÀÌÁßÆ÷¹®
+/* Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Æ²ï¿½ï¿½ ï¿½ï¿½ ï¿½×³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 StringBuilder sb = new StringBuilder();
-// ³» ¼ýÀÚ¸¦ ¹è¿­·Î ¹Þ±â
+// ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½Þ±ï¿½
 int N = Integer.parseInt(br.readLine());
 StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 int[] myArr = new int[N];
 for (int i = 0; i < N; i++) {
 	myArr[i] = Integer.parseInt(st.nextToken());
 }
-// ºñ±³ÇØ¾ßÇÒ ¼ýÀÚ¸¦ ¹è¿­·Î ¹Þ±â
-// ºñ±³ÇÑ °ª ³ÖÀ» ¹è¿­ »ý¼º
+// ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½è¿­ï¿½ï¿½ ï¿½Þ±ï¿½
+// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
 int M = Integer.parseInt(br.readLine());
 st = new StringTokenizer(br.readLine(), " ");
 int[] checkArr = new int[M];

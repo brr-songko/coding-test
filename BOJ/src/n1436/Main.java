@@ -1,5 +1,7 @@
 package BOJ.src.n1436;
 
+//	87672KB	308MS
+
 import java.io.*;
 
 public class Main {
